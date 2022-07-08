@@ -1,2 +1,2 @@
 # Python-Encrypt-Decrypt
-Simple encryption and decryption.
+<b>Encrypt & Decrypt Tool</b>
