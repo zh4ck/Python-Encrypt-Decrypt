@@ -3,7 +3,7 @@
 [![Windows](https://img.shields.io/badge/platform-Windows-0078d7.svg?style=plastic)](https://en.wikipedia.org/wiki/Microsoft_Windows) 
 [![License](https://img.shields.io/github/license/danielkrupinski/Osiris.svg?style=plastic)](LICENSE)
 
-A simple encrypt & decrypt tool made using Python 3.10. 
+A simple string encryption & decryption tool made using Python 3.10. 
 
 ## Usage
 *   Open the encryption.py file and type in a string you want to encrypt
@@ -14,6 +14,9 @@ A simple encrypt & decrypt tool made using Python 3.10.
 ### How to generate the .key file?
 Execute the key-generator.py in the same directory and you should generate a new .key file.
 
+### Cryptography module not found!
+Open command prompt and enter following command: `pip install cryptography` then you're good to go!
+
 ## Credits
-> [Zh4ck / Zhxck (Me)](https://github.com/zh4ck)
-> [Abdou Rockikz](https://www.thepythoncode.com/author/abdou-rockikz)
+*   [Zh4ck](https://github.com/zh4ck)
+*   [Pyca](https://pypi.org/project/cryptography/)
